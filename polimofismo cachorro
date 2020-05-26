@@ -1,0 +1,12 @@
+<? php
+require_once  'Cachorro.php' ;
+require_once  'Invertido.php' ;
+
+$ cachorro= novo  Cachorro ( "preto" , "medio" );
+
+$ cachorro-> latir ( "ccc" );
+
+$ prada = novo  Invertido ();
+
+$ prada -> latir ();
+?>
