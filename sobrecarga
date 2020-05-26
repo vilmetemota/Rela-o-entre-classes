@@ -1,0 +1,11 @@
+<? php 
+require_once  'Cachorro.php' ;
+classe  Invertido  estende  Cachorro {
+  
+   função  pública __construct () {
+    eco ( "gato branco nasceu na rua \ n" );
+  }
+  
+  
+   função  pública latir () {
+    eco ( "miau miau \ n" );
